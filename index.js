@@ -1,8 +1,7 @@
 const { Composer } = require("micro-bot");
+const axios = require("axios");
 
 const bot = new Composer();
-
-const bot = new Telegraf("1807373076:AAFx_hyVnO09EAkbuZORYfy3IKqogVS89N0");
 
 const tokenCA = "0x468AAfaEc61a22986AA3425F1c436462F12340D2";
 const website = "https://babyburntoken.com/";
